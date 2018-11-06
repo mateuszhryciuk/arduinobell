@@ -54,7 +54,7 @@ $serial->confFlowControl("none");
 
         echo "<html>";
         echo '<head><meta charset="UTF-8">';
-        print"<title>alarm w lubnowie</title>";
+        print"<title>alarm w domu</title>";
         print"</head>";
         print"<body>";
 
@@ -111,7 +111,7 @@ $serial->deviceClose();
         //Send headers to cause a browser to request
         //username and password from user
         header("WWW-Authenticate: " .
-            "Basic realm=\"Dom w Lubnowie - dostęp zastrzeżony\"");
+            "Basic realm=\"Dom w Kowalowie - dostęp zastrzeżony\"");
         header("HTTP/1.0 401 Unauthorized");
 
         //Show failure text, which browsers usually
