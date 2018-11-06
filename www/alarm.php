@@ -1,8 +1,8 @@
 <?php
 include 'PhpSerial.php';
 
-$user='7a426caeb7fb4075fc651b9e2bfbdb6c';
-$pass='91688cff58b0fcea5412a412af436919';
+$user='7a426caeb7fb4075fc651b9e2bfbdb6c'; // use your md5 string
+$pass='91688cff58b0fcea5412a412af436919'; // same as above 
 
 
 
